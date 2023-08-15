@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char shuzu1 [] = "abc";            //字符串自带的0被隐藏
+    char shuzu2 [] = {'1','2','4','\0'};  //增加0来占位字符串结尾 
+                                         //'\0'的值为0，为字符串结束标志
+    printf("%s\n",shuzu1);
+    printf("%s\n",shuzu2);
+    return 0;
+}
