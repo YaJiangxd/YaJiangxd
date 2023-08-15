@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int input = 0;
+    printf("学不学C语言?\n输入1为学,输入0为不学\n请输入你的选择>:");
+    scanf("%d",&input);
+    if(input == 1)
+        printf("给好学的你点个赞！");
+    else
+        printf("不学C语言可是不行的哟");
+    return 0;
+}
