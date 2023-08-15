@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int input = '\0';
+    int line = '\0';
+    printf("你想获得力量吗？少年");
+    while(line < 2001)
+    {
+        printf("一行代码飘过\n这是你写入的第%d行代码\n",line);
+        line += 1;
+    }
+    if(line >= 2001)
+    {
+        printf("现在你已经有能力斩杀恶龙了！去吧少年！");
+    }
+return 0;
+}
